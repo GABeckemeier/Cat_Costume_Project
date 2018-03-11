@@ -1,7 +1,94 @@
 body {
   margin: 0;
+  max-width: 100%;
 }
 
+#headcat {
+  background-size: 50%;
+  width: 300px;
+  height: auto;
+}
+
+.Main {
+  margin: 0 2em;
+}
+
+h1 {
+  font-family: 'PT Sans Narrow Bold', sans-serif;
+  font-size: 1.875em;
+  color: #323232;
+  text-align: center;
+  padding-top: 80px;
+}
+
+h2 {
+  font-family: 'PT Sans Narrow Bold', sans-serif;
+  font-size: 1.5em;
+  color: #00897f;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+h3 {
+  font-family: 'PT Serif Regular', serif;
+  font-size: 1em;
+  line-height: 2em;
+  color: #323232;
+}
+
+nav {
+  height: 80px;
+  padding: .5em;
+}
+
+nav h1 {
+  text-align: left;
+}
+
+.Mavis, .Kat {
+  display: inline-block;
+  background-color: #eee;
+  width: 40%;
+  padding: 30px;
+  margin: 30px;
+}
+
+p {
+  font-family: 'PT Serif Regular', serif;
+  font-size: .875em;
+  line-height: 1.75em;
+  color: #323232;
+}
+
+.Gray {
+  background-color: #eee;
+}
+
+.Business, .Contact {
+  width: 30%;
+  display: inline-block;
+  padding: 30px;
+  margin: 30px;
+  background-color: white;
+}
+
+footer h1{
+  background-color: teal;
+  color: #eee;
+  text-align: center;
+  font-family: 'PT Sans Narrow Bold', sans-serif;
+  font-size: 1.25em;
+  height: 125px;
+  padding-top: 5em;
+}
+
+#map {
+  max-width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+}
 
 /* On devices wider than 660px */
 @media(min-width: 660px) {
