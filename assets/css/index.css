@@ -1,16 +1,23 @@
 body {
-  margin: 0;
+  margin: 0px;
   max-width: 100%;
 }
 
 #headcat {
-  background-size: 50%;
-  width: 300px;
+  max-width: 1515px;
   height: auto;
+  width: auto;
+}
+
+.Kats-Cats {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 80px;
 }
 
 .Main {
-  margin: 0 2em;
+  margin: 0 4em;
 }
 
 h1 {
@@ -35,15 +42,25 @@ h3 {
   font-size: 1em;
   line-height: 2em;
   color: #323232;
+  margin: .5em;
 }
 
 nav {
-  height: 80px;
   padding: .5em;
 }
 
 nav h1 {
   text-align: left;
+  display: inline;
+}
+
+nav p {
+  font-family: 'PT Sans Regular', sans-serif;
+  font-size: .9em;
+  color: #323232;
+  padding: 2em;
+  display: inline-block;
+  text-align: right;
 }
 
 .Mavis, .Kat {
@@ -66,7 +83,7 @@ p {
 }
 
 .Business, .Contact {
-  width: 30%;
+  width: 35%;
   display: inline-block;
   padding: 30px;
   margin: 30px;
