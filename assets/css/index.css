@@ -16,6 +16,10 @@ body {
   margin: 80px;
 }
 
+#Cat1, #Cat2, #Cat3 {
+  border-radius: 50%;
+}
+
 .Main {
   margin: 0 4em;
 }
@@ -60,7 +64,7 @@ nav p {
   color: #323232;
   padding: 2em;
   display: inline-block;
-  text-align: right;
+  float: right;
 }
 
 .Mavis, .Kat {
@@ -101,7 +105,7 @@ footer h1{
 }
 
 #map {
-  max-width: 100%;
+  max-width: 1515px;
   background-size: cover;
   background-repeat: no-repeat;
   height: auto;
