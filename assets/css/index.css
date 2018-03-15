@@ -29,7 +29,6 @@ h1 {
   font-size: 1.875em;
   color: #323232;
   text-align: center;
-  padding-top: 80px;
 }
 
 h2 {
@@ -50,21 +49,21 @@ h3 {
 }
 
 nav {
-  padding: .5em;
+  height; 80px;
 }
-
 nav h1 {
   text-align: left;
   display: inline;
+  float: left;
 }
 
 nav p {
   font-family: 'PT Sans Regular', sans-serif;
   font-size: .9em;
   color: #323232;
-  padding: 2em;
-  display: inline-block;
+  padding: 1em;
   float: right;
+  margin-right: 1em;
 }
 
 .Mavis, .Kat {
@@ -104,11 +103,11 @@ footer h1{
   padding-top: 5em;
 }
 
-#map {
-  max-width: 1515px;
+#map img{
+  max-width: 100%;
   background-size: cover;
-  background-repeat: no-repeat;
-  height: auto;
+  max-height: auto;
+  width: 100%;
 }
 
 /* On devices wider than 660px */
