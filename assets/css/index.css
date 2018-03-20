@@ -83,14 +83,22 @@ p {
 
 .Gray {
   background-color: #eee;
+  padding: 80px;
 }
 
 .Business, .Contact {
   width: 35%;
   display: inline-block;
   padding: 30px;
-  margin: 30px;
+  margin: 60px;
   background-color: white;
+}
+
+a {
+  font-family: 'PT Serif Bold', serif;
+  color: #f26522;
+  font-size: 1em;
+  display: inline;
 }
 
 footer h1{
