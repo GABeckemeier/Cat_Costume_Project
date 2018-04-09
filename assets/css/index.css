@@ -4,9 +4,10 @@ body {
 }
 
 #headcat {
-  max-width: 1515px;
-  height: auto;
-  width: auto;
+  max-width: 100%;
+  background-size: cover;
+  max-height: auto;
+  width: 100%;
 }
 
 .Kats-Cats {
@@ -49,7 +50,7 @@ h3 {
 }
 
 nav {
-  padding: 0 80px;
+  padding: 0 2em;
 }
 nav h1 {
   text-align: left;
@@ -117,7 +118,6 @@ footer h1{
   max-height: auto;
   width: 100%;
 }
-
 /* On devices wider than 660px */
 @media(min-width: 660px) {
 }
@@ -131,7 +131,6 @@ footer h1{
   .Main {
     margin: 0;
   }
-
   #map, #headcat {
     max-width: 100%;
     background-size: cover;
