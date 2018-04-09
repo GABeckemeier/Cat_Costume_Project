@@ -114,14 +114,17 @@ a {
   display: inline;
 }
 
-footer h1{
+footer {
   background-color: teal;
+  padding-top: 5em;
+  height: 125px;
+}
+
+footer h1 {
   color: #eee;
   text-align: center;
   font-family: 'PT Sans Narrow Bold', sans-serif;
   font-size: 1.25em;
-  height: 125px;
-  padding-top: 5em;
 }
 
 #map {
