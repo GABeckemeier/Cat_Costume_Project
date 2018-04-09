@@ -67,8 +67,15 @@ nav p {
   margin-right: 1em;
 }
 
+.AboutFlex {
+  display: flex;
+  justify-content: center;
+  flex-flow: row nowrap;
+}
+
 .Mavis, .Kat {
-  display: inline-block;
+  display: flex;
+  flex-flow: column nowrap;
   background-color: #eee;
   width: 40%;
   padding: 30px;
@@ -86,10 +93,15 @@ p {
   background-color: #eee;
   padding: 80px;
 }
-
+.ContactFlex {
+  display: flex;
+  justify-content: center;
+  flex-flow: row nowrap;
+}
 .Business, .Contact {
   width: 35%;
-  display: inline-block;
+  display: flex;
+  flex-flow: column nowrap;
   padding: 30px;
   margin: 60px;
   background-color: white;
@@ -130,6 +142,9 @@ footer h1{
 @media(max-width: 840px) {
   .Main {
     margin: 0;
+  }
+  .ContactFlex, .AboutFlex {
+    flex-flow: row wrap;
   }
   #map, #headcat {
     max-width: 100%;
